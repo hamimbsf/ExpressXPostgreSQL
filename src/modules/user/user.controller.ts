@@ -22,7 +22,7 @@ const getAllUser = async (req: Request, res: Response) => {
 
     res.status(200).json({
       success: true,
-      message: " users get successfully",
+      message: "users get successfully",
       data: result.rows,
     });
   } catch (error: any) {

@@ -4,7 +4,6 @@ import express, {
   type Response,
 } from "express";
 
-import { initDb, pool } from "./db";
 import { userRouter } from "./modules/user/user.route";
 import { profileRouter } from "./modules/profile/profile.route";
 import { authRoute } from "./modules/auth/auth.route";
